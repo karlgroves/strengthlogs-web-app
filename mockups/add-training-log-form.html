@@ -1,0 +1,33 @@
+<section id="training-log-form">
+    <h1>Add New Log</h1>
+
+    <input type="hidden" name="trainingLogID" value=""/>
+    <input type="hidden" name="userID" value=""/>
+
+    <div>
+        <label for="exerciseID">Exercise</label>
+        <select name="exerciseID" id="exerciseID">
+            <option></option>
+        </select>
+    </div>
+
+    <div>
+        <label for="sets">Sets</label>
+        <input type="number" name="sets" id="sets" min="0" max="100" step="1" value=""/>
+    </div>
+
+    <div>
+        <label for="reps">Reps</label>
+        <input type="number" name="reps" id="reps" min="0" max="100" step="1" value=""/>
+    </div>
+
+    <div>
+        <label for="weight">Weight</label>
+        <input type="number" name="weight" id="weight" min="0" max="1500" step="5" value=""/>
+    </div>
+
+    <div>
+        <input id="submit" name="submit" type="submit">
+    </div>
+
+</section>
